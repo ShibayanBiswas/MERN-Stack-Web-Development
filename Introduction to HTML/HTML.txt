@@ -71,6 +71,7 @@ In HTML we have:
 	&nbsp means no break space. In order to help HTML place a space between two words we use it. We use this if we want the words to be more than a space apart.
 	The <hr> tag in HTML stands for horizontal rule and is used to insert a horizontal rule or a thematic break in an HTML page to divide or separate document sections. The <hr> tag is an empty tag, and it does not require an end tag.
 	HTML <img> tag is used to add image inside webpage/website. Syntax: <img src="" alt="" width="" height="">. Example: <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+	The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
 
 11. Using <p> tag will -
 Answer: start a new paragraph
