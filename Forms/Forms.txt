@@ -1,0 +1,172 @@
+
+1. What is the use of Forms in HTML?
+Answer: to collect user’s input
+
+2. Input tag is generally used within?
+Answer: <form> element [It is used to create interactive controls for forms in order to accept data from the user within the form element]
+
+3. Select the correct statements about the label tag?
+Answer: <label> tag in HTML is used to specify a label that you want to show for an <input> element of a form, <label> tag is an inline element, ‘for’ attribute used in <label> tag refers 
+to the id of the element this label is associated with
+
+4. Which element is used to take input from the user that can be send to the server?
+Answer: <input>
+
+5. What is the default ‘type’ attribute of <input> element?
+Answer: text
+
+6. Which of them is the value of the input’s type attribute?
+Answer: email, password, hidden, range, week
+
+7. Adding which of the following to input box make it compulsory to be filled out when submitting the form?
+Answer: required
+
+8. Which tag creates a check box for a form in HTML?
+Answer: <input type="checkbox">
+
+9. How does the “for” attribute of label links to input box?
+Answer: set the “id” attribute of input to same value as “for” attribute
+
+10. Choose the correct statement regarding elements having same value of “name” attribute?
+Answer: Elements with <input type="radio"> can have same value because only one radio button can be selected and part of same set
+
+11. Which of the following HTML elements will allow the user to choose none, one, several or all items?
+Answer: Checkboxes
+
+12. How does the “for” attribute of the label link to the input box?
+Answer: Set the “id” attribute of input to the same value as “for” attribute
+
+
+The <select> tag in HTML is used to create a drop-down list. The <select> tag contains <option> tag to display the available option of drop-down list.
+Note: The <select> tag is used in a form to receive user responses.
+
+Syntax:
+	<select>
+    		<option>
+    		</option>
+   		...
+		</select>
+
+Attributes: The attributes of the <select> tag are listed below: 
+	autofocus: The HTML <select> autofocus Attribute is used to specify that the dropdown should automatically get focus when the page loads. It is a type of boolean attribute.
+	disabled: The <select> disabled attribute is used to specify the select element is disabled. A disabled drop-down list is un-clickable and unusable. It is a boolean attribute.
+	form: The HTML <select> form attribute is used to specify one or more forms that the <select> element belongs to.
+	multiple: The HTML <select> multiple attribute is a Boolean Attribute. It specifies that the user is allowed to select more than one value that presents in <select> element.
+	name: The HTML <select> name attribute is used to specify a name for the drop-down list. It is used to reference the form data after submitting the form or to reference the element in JavaScript.
+	required: The HTML <select> required attribute is a Boolean attribute that is used to specify that the user should be selected value before submitting the Form.
+	size: The HTML size attribute is used to specify the number of visible options in a drop-down list.
+
+
+The <textarea> tag in HTML defines a multi-line plain-text editing control. A text space will hold an infinite range of characters, and therefore the text renders in a set-width font (usually Courier). The size of a text area is often such by the cols and rows attributes, or perhaps better; through CSS’ height and dimension properties. The textarea is generally used in a form, to collect user inputs like comments or reviews. The name attribute is needed for the reference in the form data after the form is submitted. By omitting the name attribute, data from the text area will not be submitted. The id attribute is required to link the text area with a label.
+
+Syntax:
+	<textarea>....</textarea>
+
+Attribute values:
+	autocomplete: It is used to specify whether the Textarea field has autocompleted on or off.
+	autofocus: It is used to specify that the textarea field should get automatically focus when the page loads.
+	cols: It is used to tell the browser how many average-width characters should fit on a single line i.e the number of columns to display.
+	dirname: It is used to enable the text direction of the Textarea Field after submitting the form.
+	disabled: It is used to specify that the text area element is disabled.
+	form: It is used to specify the one or more forms that the <Textarea> element belongs to.
+	maxlength: It is used to specify the maximum number of characters entered into the Textarea element.
+	minlength: It is used to define the minimum number of characters (as UTF-16 code units) of a Textarea Element.
+	name: It is used to specify the name of the <Textarea> element.
+	placeholder: It is used to specify the expected value to be displayed before user input in textarea element.
+	readonly: It is used to specify that the textarea element is read-only. If the textarea is read-only, then its content cannot be changed but can be copied and highlighted.
+	required: It is a boolean attribute that is used to specify that the <textarea> element must be filled out before submitting the Form.
+	rows: It is used to specify the number of visible text lines for the control i.e. the number of rows to display.
+	wrap: It is used to specify that in which manner the text is to be wrapped in a text area when a form is submitted.
+
+
+The <button> tag in HTML is used to define the clickable button. <button> tag is used to submit the content. The images and text content can use inside <button> tag.Different browsers use different default types for <button>. Buttons can be styled using CSS.
+
+Syntax: 
+	<button type = "button">
+
+Attribute values:
+	autofocus: It is used to specify that the button should get automatically get focus or not when the page loads
+	disabled: It is used indicates whether the element is disabled or not. If this attribute is set, the element is disabled.
+	form: It is used to create a form for user input. There are many elements that> are used within the >form tag. 
+	formaction: It is used to specify where to send the data of the form.
+	formnovalidate: It is used to specify that the Input Element should not be validated when submitting the form.
+	formenctype: It is used to specify that the form data should be encoded when submitting to the server.
+	formmethod: It is used to specify the HTTP method used to send data while submitting the form.
+	formtarget: It is used to specify the name or a keyword which indicates where to display the response after submitting the form.
+	type: It is used to specify the type of button for button elements. It is also used in <input> element to specify the type of input to display.
+	value: It is used to specify the value of the element with which it is used. It has different meaning for different HTML elements.
+
+
+
+13. Which element is used to create multi-line text input?
+Answer: textarea
+
+14. To create a drop down which tag will you use?
+Answer: <select>
+
+15. Which attribute can be used with <select> element?
+Answer: multiple
+
+
+
+HTML action attribute- The action attribute of <form> element defines the process to be performed on form when form is submitted, or it is a URI to process the form information. The action
+attribute value defines the web page where information proceed. It can be .php, .jsp, .asp, etc. or any URL where you want to process your form.
+
+HTML method attribute- The method attribute defines the HTTP method which browser used to submit the form. The possible values of method attribute can be:
+	post: We can use the post value of method attribute when we want to process the sensitive data as it does not display the submitted data in URL.
+	get: The get value of method attribute is default value while submitting the form. But this is not secure as it displays data in URL after submitting the form.
+
+
+
+16. What does the action attribute defines?
+Answer: The action attribute specifies where to send the form-data when a form is submitted
+
+17. The method attribute specifies -
+Answer: the method name that process the form data
+
+18. Which of the following is not the keyword of form method attribute?
+Answer: GET
+
+19. Which method would be more appropriate in the form where a user enters a password such as a login form?
+Answer: POST
+
+
+
+Since the release of HTML5, audios can be added to webpages using the “audio” tag. Previously, audios could be only played on web pages using web plugins like Flash. The “audio” tag is an inline element that is used to embed sound files into a web page. It is a useful tag if you want to add audio such as songs, interviews, etc. on your webpage.
+
+Syntax: 
+	<audio>
+  		<source src="sample.mp3" type="audio/mpeg">
+	</audio>
+
+Attributes: The various attributes that can be used with the “audio” tag are listed below:
+	Controls: Designates what controls to display with the audio player.
+	Autoplay: Designates that the audio file will play immediately after it loads controls.
+	Loop: Designates that the audio file should continuously repeat.
+	src: Designates the URL of the audio file.
+	muted: Designates that the audio file should be muted.
+
+
+20. Which of the following tag is used for audio in HTML5 ?
+Answer: <audio>
+
+21. Which tag is used to defines multiple media resources for media elements audio and video?
+Answer: <source>
+
+22. Which of the following attribute adds audio controls, like play, pause, and volume?
+Answer: controls
+
+23. With which element can the figcaption be used?
+Answer: figure
+
+24. Metadata store information about the web page that is not necessarily visible to end users.
+Answer: True
+
+25. In which part of the HTML metadata is contained?
+Answer: head tag
+
+26. Which attribute gives the value associated with the http-equiv or name attribute?
+Answer: Content
+
+27. What does the name attribute in meta tags specify?
+Answer: name of the metadata
