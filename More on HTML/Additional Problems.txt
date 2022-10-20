@@ -1,0 +1,60 @@
+
+1. Which of the following defines a visible heading for <details> element?
+Answer: summary [Summary tag is acts as a caption for the details tag and can be clicked to toggle the state of the parent]
+
+2. Which element defines additional details?
+Answer: <details>
+
+3. Which element denotes that the text is a short fragment of computer code?
+Answer: <code>
+
+4. How to increase the font size of the displayed text in HTML 5?
+Answer: By setting higher font size in css style
+
+5. The <small> and <big> tags are special in a what way?
+Answer: They can be repeated [Small and big tags can be repeatedly applied to a text to make it smaller or bigger to the extent we want]
+
+6. How will the code below would look like in the browser:
+	<article>
+    		<p> 1. This is a <b> para </b> </p>
+    		<a> 2. This is a link. </a>
+    		<a> 3. This a link. </a>
+	</article>
+	<br>
+	<strong> Guess the above structure. </strong>
+Answer: This is para 
+	2. This is a link 3. This is a link.
+	Guess the above structure.
+
+4. Can a data cell contain images?
+Answer: Yes
+
+5. Is it possible to insert a table within another table?
+Answer: Yes, table can be inserted into cell of another table
+
+6. Choose the correct statement for <h1> tag?
+Answer: <h1> tag is a semantic tag [h1 tag encloses content with clear semantics i.e. it represents a heading. Hence it's a semantic tag]
+
+7. Determine the output for the following code:
+ 	<div>
+   		<a href="https://codingninjas.com/">Coding 
+   		Ninjas</a>
+ 	</div>
+ 	<div>
+   		<a href="https://Google.com/">Google</a>
+ 	</div>
+  	<hr>
+ 	<span>
+   		<a href="https://codingninjas.com/">Coding 
+   		Ninjas</a>
+ 	</span>
+ 	<span>
+    		<a href="https://Google.com/">Google</a>
+ 	</span>
+Answer: Coding Ninjas
+	Google
+	----------------
+	Coding Ninjas Google
+
+8. Which of the following is/are true regarding HTML tables? (multiple options correct)
+Answer: <table> is a semantic tag, The tr, td elements have no significance of their own (as a table row or table data) until we wrap them in the table tag, The table is a block element 
