@@ -1,0 +1,88 @@
+
+1. Which statements are correct about pseudo-class in CSS?
+Answer: Pseudo-classes are keywords added to a selector and separated using a single colon(:), pseudo-class is used to define a special state of an element, Syntax for pseudo-class is: selector:pseudo-class { property: value; }
+
+
+2. Let’s say you want to set every odd-numbered paragraph element to be a green color using pseudo-class, what will be the correct syntax for that?
+Answer: p : nth-child(2n+1) { color: green; }, p : nth-child(odd) { color : green; }  
+
+
+3. Which layout model defines the structures similar to tables using 2 dimensions?
+Answer: Grid
+
+
+4. To make an HTML element behave as a grid container, you have to set the display property to -
+Answer: grid, inline grid 
+
+
+5. What layout modules require containers?
+Answer: Flexbox, Grid 
+
+
+6. Which property is used to align flex lines?
+Answer: align-content
+
+
+7. In the shortened property flex: 1 0 auto; which property refers to the 2nd value (here 0)?
+Answer: flex-shrink
+
+
+8. Which of the following overrides container’s align-items property?
+Answer: align-self
+
+
+9. If the below two properties are applied on a flex item -
+
+	width: 500px;
+	flex-basis: 250px;
+
+What will be its width?
+Answer: 250px [The "width" property gets overridden by "flex-basis" property. So, "flex-basis: 250px;" gets applied and the width of the element becomes "250px"]
+
+
+10. If the below three properties are applied on a flex item -
+
+	width: 500px;
+	flex-basis: 250px;
+	min-width: 750px;
+
+What will be its width?
+Answer: 750px [The "min-width" property fixes a boundary for the width of the element and cannot be overridden in any way. So, even though "flex-basis" sets the initial width, the "min-width" is not fulfilled, so width of the element becomes "750px"]
+
+
+11. Code -
+
+	.flex-container {
+    		display: flex;
+    		justify-content: space-between;
+    		width: 300px;
+    		flex-wrap: nowrap;
+	}
+	.flex-container > div {
+    		background-color: #f1f1f1;
+    		width: 50px;
+    		margin: 10px;
+	}
+
+What is the space between any of the 2 divs?
+Answer: 20px
+
+
+12. flex-flow is a shorthand property that combines -
+Answer: flex-direction and flex-wrap
+
+
+13. grid-template-columns property can be used to :
+Answer: Specify the size of the column [The grid-template-columns property specifies the number of the columns in a grid layout. The values are a space-separated list, where each value specifies the size of the respective column]
+
+
+14. Suppose you are creating a grid layout like this -
+
+	.container{
+		width : 400px;
+		display: grid;
+		grid-template-columns: 125px 125px 1fr 1fr;
+	}
+
+What does 1fr mean in the above code?
+Answer: The third and fourth columns are 1 fraction units of the remaining space in the grid [Since fr is a fractional unit and 1fr is for 1 part of the available space. Here, you have a grid with 4 columns as in the mentioned code, the 1st and second columns will be 125px, the 3rd and 4th columns will be 75px each occupying half of the remaining space]
