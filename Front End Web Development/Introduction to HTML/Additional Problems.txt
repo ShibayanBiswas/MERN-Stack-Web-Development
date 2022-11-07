@@ -1,0 +1,56 @@
+
+1. In HTML, tags that include both start and end tag are called?
+Answer: Container tag
+
+
+2. What is the correct syntax for writing ‘doctype’ in HTML5?
+Answer: <!doctype html>, <!DOCTYPE html>, <!Doctype html>
+
+
+3. Which of the following is not a pair tag?
+Answer: img
+
+
+4. Alt Attribute is more useful in the situation where user have?
+Answer: slow internet connection, no image shown due to any reason 
+
+
+5. What tag is used to list individual items of an ordered list?
+Answer: li
+
+
+6. To start a list at the count of 3, use?
+Answer: <ol start=”3”>
+
+
+7. Link in HTML can be of following type(s)?
+Answer: Visited, Active, Unvisited
+
+
+8. Default style and color of unvisited link in any browser is?
+Answer: Underlined and Blue
+
+
+9. Which of the following is used to open document in new window / Tab ?
+Answer: <a target=”_blank”> Link </a>
+
+
+10. To create a link to an email address, which of the following syntax is used?
+Answer: <a href=”mailto:name@example.com”> email </a>
+
+
+11. Which of the following will show an image located in folder named ‘image’, which is in the parent folder of the current page?
+Answer: <img src=”../image/pic.img”>
+
+
+12. HTML <dl> tag defines the?
+Answer: Description list
+
+
+13. Which tag is used to describe a term/name in a description list?
+Answer: <dd>
+
+
+14. Dimensions of an image should be preferably specified in % instead of a pure number? (multiple answers correct)
+Answer: % adjusts image size according to the screen resolution unlike a pure number, Image dimensions specified using a pure number may appear small or large on different screens with 
+different dimensions.

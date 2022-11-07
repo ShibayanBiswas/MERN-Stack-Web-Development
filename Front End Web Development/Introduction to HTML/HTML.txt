@@ -1,0 +1,165 @@
+HTML helps us to create the structure of the webpage. Structure of the webpage means there are multiple elements like heading, paragraph, images, links, buttons, videos, tables, etc. which 
+can be included using HTML. To beautify the webpage we need CSS. 
+HTML - Hypertext Markup Language
+
+For example let's visualise the google search page that is divided into three sections respectively. Section 1 is the header section. Section 2 is the main section. Section 3 is the footer 
+section. These sections have multiple options available in them. For example we can see that section 1 has options like gmail, sign in and so on, section 2 has options like google image, google
+search bar and so on, section 3 also has various options. This structure that we draw is a tree like structure. A natural HTML page is hiearchial. There is root at the top. Root can have children. 
+Children can have further children and so on. We can complicate and divide it as per our requirement. To write down code we have to replicate the complete structure via code. Different tags
+have different features. 
+
+The <html> tag is just an indicator to show that we are starting our HTML code. HTML root has two fixed children HEAD and BODY. The part of the page visible to us is the BODY section. The
+BODY section is the child of the HTML section. The HEAD tag is for the meta data part. Meta data part means some information about the page like TITLE. We write TITLE within the HEAD section.
+Files and links are written under the head section. When we try to open a HTML page using a browser the browser tries to open it in the best possible way it can. Browser actualy fills in 
+the basic code. 
+
+To see this we right click and selct inspect to see the HTML code provided by the browser. 
+
+
+1. How would the browser know that you are using the HTML5 version?
+Answer: It is specified using <!DOCTYPE html>
+
+
+2. Which tag tells the browser where the HTML page starts and stops?
+Answer: <html>
+
+
+3. Which of the following is a valid tag?
+Answer: <_person> [Valid HTML tags are surrounded by the angle brackets and the tag name can only either start from an alphabet or an underscore]
+
+
+4. The latest HTML standard is -
+Answer: HTML 5.0
+
+
+5. What can be the possible extension for the HTML5 file?
+Answer: .htm and .html
+
+
+6. The BODY tag is usually used after -
+Answer: HEAD tag
+
+Our plan is to make a blog page like a one present in the Coding Ninjas website. Here we will be focusing only on the HTML part. Our targrt with HTML is to structure a page and not beautify it.
+After we learn CSS we can complete our target of making a beautiful looking webpage.
+
+7. How do we write comments in HTML5?
+Answer: <!--.….-->
+
+
+8. The title tag -
+Answer: defines a title in the browser toolbar, provides a title for the page when it is added to favorites, displays a title for the page in search-engine results
+
+
+9. Where is the title tag defined?
+Answer: Immediately inside the head tag
+
+
+10. Add Title to Blog- Let's start making your own first blog. Add the title - "Best Coding Practices" to your web page. The title can be seen in the browser's tab.
+Answer: <!DOCTYPE html>
+	<html>
+    	<head>
+		<title>
+            		Best Coding Practices
+        	</title>
+    	</head>
+	</html>
+
+In HTML we have:
+	Heading tag ranging from <h1> </h1> to <h6></h6> depending upon the size of the Heading we need.
+	Paragraph tag <p> </p> for writing paragraphs inside our webpage.
+	Break tag <br> is used to go to the new line. It is a single tag hence we do not close it.
+	&nbsp means no break space. In order to help HTML place a space between two words we use it. We use this if we want the words to be more than a space apart.
+	The <hr> tag in HTML stands for horizontal rule and is used to insert a horizontal rule or a thematic break in an HTML page to divide or separate document sections. The <hr> tag is an empty tag, and it does not require an end tag.
+	HTML <img> tag is used to add image inside webpage/website. Syntax: <img src="" alt="" width="" height="">. Example: <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+11. Using <p> tag will -
+Answer: start a new paragraph
+
+
+12. Can the element <h1> be replaced with <H1>?
+Answer: Yes, both are same
+
+
+13. Correct HTML tag for the largest heading -
+Answer: <h1>
+
+
+14. We can use Title Tag instead of using H1 tag to show Heading?
+Answer: False [Title tag is only used to set the title of the HTML page, while H tags are used inside the HTML page. Title of the page is displayed on the tab of the page]
+
+
+15. What does the <br> tag add to your webpage?
+Answer: Line break
+
+
+16. What is the difference between an HTML tag and an HTML element?
+Answer: HTML tags are used as a container for HTML elements
+
+
+17. To create a bulleted list, use -
+Answer: <ul>
+
+
+18. To start a list using filled circles, use -
+Answer: <ul type="disc">
+
+
+19. What kind of list will <ol> tags create?
+Answer: Numbered list
+
+
+20. Which tag will display the content of list?
+Answer: li
+
+
+21. Which attribute is/are used to set the dimensions of the image?
+Answer: width, height 
+
+
+22. Which attribute is used to set the path for an image element?
+Answer: src
+
+
+23. <img> tag has no closing tag?
+Answer: True
+
+
+24. If the image cannot be displayed then ___ attribute specifies an alternate text for an image?
+Answer: alt
+
+
+25. Choose the correct option?
+Answer: Address specified in src of <img> tag can be absolute or relative
+
+
+26. The tag used for creating hypertext and hypermedia links is?
+Answer: <a>
+
+
+27. URL for link is specified using ___ attribute?
+Answer: href
+
+
+28. A linked page using anchor tag is normally displayed in?
+Answer: The same tab
+
+
+29. Which attribute is used to specify where to open the linked document?
+Answer: target
+
+
+30. Default color of active link in browser is?
+Answer: Red
+
+
+31. Relative URLs are used to?
+Answer: link other pages within the same site
+
+
+32. For defining internal links in a page we use?
+Answer: id
+
+
+33. A home.html file is present in a folder named “pages”. The “pages” folder is present in the same folder as the index.html file. You wish to add a link in the index file that links to 
+home.html. How will you do it?
+Answer: <a href= “pages/home.html”> Link </a>
