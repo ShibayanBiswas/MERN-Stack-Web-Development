@@ -1,0 +1,72 @@
+
+1. Which property can be used to insert line breaks within words to prevent text from overflowing?
+Answer: overflow-wrap
+
+2. Which of the following will create a gradient?
+Answer: background: linear-gradient(red, blue); background-image: linear-gradient(red, blue); 
+
+3. What is the required number of colors to produce a gradient effect?
+Answer: More than one
+
+4. Which of the following are the correct values for the 'direction' option in 'linear-gradient' property?
+Answer: 40deg, to right, to left top, to right bottom, -20deg 
+
+5. Which of the following argument is not accepted by the radial-gradient() function?
+Answer: Time
+
+6. Suppose you want to control the direction, and you have to give the gradient a specific angle to create a horizontal gradient running from left to right. Which of the following angle will be used?
+Answer: 90deg [Using an angle, 0deg creates a vertical gradient running bottom to top, 90deg creates a horizontal gradient running left to the right, 180deg creates a vertical gradient running top to bottom in a clockwise direction]
+
+7. Which of the following is not a pseudo class?
+Answer: clicked
+
+8. How will you set the color of all the unvisited links in a web page?
+Answer: a { color: red; }, a:link { color: red; } 
+
+9. Suppose, you clicked on a link and its color is changed when you revisited it. Then ,which of the following pseudo class would have been used to do so?
+Answer: visited
+
+10. Which of the following transition-timing-function property specifies a transition effect with a slow start and end?
+Answer: ease-in-out
+
+11. How can you apply styles to first line of every paragraph?
+Answer: p::first-line {...}
+
+12. Which of the following pseudo element will help you add an image before every paragraph, using CSS only?
+Answer: p::before {...}
+
+Note: 
+	p.name::first-letter {
+            	color: #ff0000;
+            	font-size: 2rem;
+	 }
+
+	The only first letter of the first paragraph, ie. T will appear in red with font-size 2rem because we have applied pseudo-element on the class name. Also, first-letter has more 
+	specificity than the first-line, so the font-size property applied to first-letter overrides the 1 rem value, which is applied to the first line of each paragraph. And First line 
+	of each paragraph will be shown with font-size 1rem and font-family monospace.
+
+	p::first-line {
+                font-size: 1rem;
+                font-family: monospace;
+        }
+
+13. What value can 'overflow-wrap' have?
+Answer: break-word
+
+14. Which of the following is/are types of gradient?
+Answer: Linear Gradient, Radial Gradient, Repeating Linear Gradient, Repeating Radial Gradient
+
+15. Which of the following CSS code will add an image on the right side of every anchor tag?
+Answer: a::after { background-image:url(...); }
+
+16. Given a page having 2 links and then 2 paragraphs, on clicking the second link, the 'Section 2...' gets highlighted. What could be the possible pseudo class/element that has been used?
+Answer: p:target {...} 
+
+17. How will you select even <p> tags that are contained inside a <div id="even"> tag?
+Answer: #even p:nth-child(2n) {...}
+
+18. Which of the following is the recommended order of Pseudo-classes?
+Answer: :link, :visited, :focus, :hover, and :active [The recommended order link, visited, focus, hover, active. The :link and :visited pseudo-classes should generally come first. Next should be :focus and :hover—they’re specified now to override and apply to both visited and unvisited links. If :focus precedes :hover, the hover effect will apply to links with keyboard input focus. The :active pseudo-class should always come last since we usually want to indicate clearly any links that have been activated]
+
+19. Suppose you want to arrange five numbers of divisions so that div 4 is placed above div 1. Now, which CSS property will we use to control the order of the stack?
+Answer: Z-index
