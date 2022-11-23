@@ -1,0 +1,10 @@
+
+1. What values can the ‘transform’ property take? (Multiple options are correct)
+Answer: translate(x,y), rotate3d(x,y,z,deg), scaleX(x)
+
+2. There are two divs - outer div(200x200) of brown color, and inner div(100x100) of purple color as shown. If you apply ‘transform: translateY(100px)’ to the inner purple div, what will be the output?
+Answer: The Y-axis is inverted in the coordinate system that CSS uses i.e. +ve Y direction is downwards, while -ve Y direction is upwards. The Y-axis is inverted in the coordinate system that CSS uses i.e. +ve Y direction is downwards, while -ve Y direction is upwards. When we translate(100px), the div goes 100px in the +Y direction i.e. downwards.
+
+3. Which of the following is false regarding the transition in CSS? (Multiple options are correct)
+Answer: The transition-duration property is used to specify the transition delay or time when the transition begins
+

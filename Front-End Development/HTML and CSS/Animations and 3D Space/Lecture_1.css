@@ -1,0 +1,26 @@
+div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: aquamarine;
+	/*-- transform: rotate((θ)deg); --*/
+	/*-- transform: rotate(-(θ)deg); --*/
+	/*-- transform: rotateX((θ)deg); --*/
+	/*-- transform: rotateY((θ)deg); --*/
+	/*-- transform: scale(0.5); --*/
+	/*-- transform: scale((x), (y)); --*/
+	/*-- transform: translate((x)px); --*/
+	/*-- transform: translate((x)px, (y)px); --*/
+	transform: translate(10%, 10%);
+	/*-- transition: 1s ease-in-out; --*/
+	/*-- transition: all 1s ease-in-out; --*/
+	/*-- transition: height 1s ease-in-out; --*/
+	transition: height 1s ease-in-out 0.5s;
+}
+
+div:hover{
+	height: 400px;
+	width: 400px;
+}
