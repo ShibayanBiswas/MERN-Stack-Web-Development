@@ -1,0 +1,50 @@
+
+1. What are front end frameworks?
+Answer: They are CSS frameworks and packages having pre-written, standardized code in folders and files. They offer you a base to develop on while still enabling flexibility with the 
+concluding design. Some of the popular front-end frameworks are: Bootstrap, Materialise css, Semantic css, etc.
+
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates 
+for typography, forms, buttons, navigation, and other interface components.
+
+2. Why are bootstrap breakpoints required?
+Answer: They define how the width of the content would adjust across different device sizes. The bootstrap breakpoints are defined as customizable widths so that the content can adjust 
+according to the screen resolution. Breakpoints are not defined with respect to height.
+
+3. Choose the correct statement about div with id ‘col-one’ based on this given code. (Assume bootstrap has been attached to this HTML code file.) (multiple options correct)
+
+	<div class="container">
+  		<div class="row">
+   			<div id="col-one" class="col-6 col-md-4 col-lg-2">
+   			</div>
+  		</div>
+	</div>
+Answer: It’ll occupy one-sixth width of its row on xl screen size, It’ll occupy one-third width of its row on md screen size, It’ll occupy half-width of its row on xs and sm screen size. 
+[The grid system in bootstrap has 12 columns in a row. Therefore col-6 means the div occupies six columns out of 12, i.e. half-width of its row]
+
+4. What do you infer about the display property of the div with id ‘col-1’?
+
+	<div class="container">
+   		<div class="row">
+      			<div id="col-1" class="col d-none d-md-block d-lg-none">
+
+      			</div>
+   		</div>
+	</div>
+Answer: It’ll be hidden for screen size less than md, visible for md, and hidden for screen lg and xl.
+
+5. Which of the following is false about modals?
+Answer: Their size on the screen can not be controlled directly using certain bootstrap classes.
+
+
+
+										Important Attributes:-
+
+1) tabindex: The tabindex attribute specifies the tab order of an element (when the "tab" button is used for navigating). When tabindex="-1" (or any other negative value, but -1 is the 
+convention) allows any element to receive programmatic focus. This allows us to use JavaScript to give focus to an element that might not otherwise be able to receive focus. For example, 
+when opening up a modal dialog focus needs to be set to the dialog. This benefits not only the screen reader which will begin reading the modal instead of the next element that is now 
+obfuscated from the sited user, but keyboard users will then be able to use their keyboard to navigate within the modal dialog.
+
+2) role: The main purpose of role attribute is to bolster "Aria" i.e. Accessible Rich Internet Applications which helps in providing richness and quality from semantic perspective. 
+Moreover, role attribute makes a website more facilitative and using this attribute is considered as a good practice. Generally, the role is necessary for languages which do not define 
+their own role attribute. By using role attributes, we get to avail features like accessibility, device adaptation, server-side processing, complex data description, and many more such 
+features. Thus role attribute is advised to be used for getting better performance of the code.
